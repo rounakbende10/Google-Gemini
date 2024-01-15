@@ -1,0 +1,13 @@
+prefix=/Users/rounakbende/Desktop/LLM/MultiLanguageInvoiceExtractor/venv
+exec_prefix=/Users/rounakbende/Desktop/LLM/MultiLanguageInvoiceExtractor/venv
+libdir=/Users/rounakbende/Desktop/LLM/MultiLanguageInvoiceExtractor/venv/lib
+sharedlibdir=/Users/rounakbende/Desktop/LLM/MultiLanguageInvoiceExtractor/venv/lib
+includedir=/Users/rounakbende/Desktop/LLM/MultiLanguageInvoiceExtractor/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
