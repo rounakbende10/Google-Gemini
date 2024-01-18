@@ -7,10 +7,11 @@ This repository contains a Streamlit web application for a MultiLanguage Invoice
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
 
 # Set up environment variables:
+Create a .env file.
 
- ```Create a .env file.
 # Add your Google API key:
 
 ``` GOOGLE_API_KEY=your_api_key
