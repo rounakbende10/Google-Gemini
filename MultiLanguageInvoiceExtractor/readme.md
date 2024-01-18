@@ -10,12 +10,12 @@ This repository contains a Streamlit web application for a MultiLanguage Invoice
 
 # Set up environment variables:
 
-# Create a .env file.
+ ```Create a .env file.
 # Add your Google API key:
 
- GOOGLE_API_KEY=your_api_key
+``` GOOGLE_API_KEY=your_api_key
  
-streamlit run your_script_name.py
+``` streamlit run your_script_name.py
 
 Usage
 Input Prompt:
