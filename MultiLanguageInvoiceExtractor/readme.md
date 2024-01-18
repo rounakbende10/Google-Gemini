@@ -10,28 +10,33 @@ This repository contains a Streamlit web application for a MultiLanguage Invoice
    ```
 
 # Set up environment variables:
-Create a .env file.
+1. Create a .env file.
 
-# Add your Google API key:
+2. Add your Google API key:
 
-``` GOOGLE_API_KEY=your_api_key
+```bash
+ GOOGLE_API_KEY=your_api_key
+```
+
+# Run the application:
  
-``` streamlit run your_script_name.py
+```bash
+ streamlit run your_script_name.py
+```
 
-Usage
-Input Prompt:
+## Usage
+1. Input Prompt:
+ * Enter a prompt describing the inquiry about the invoice.
+2. Upload Invoice Image:
+ * Choose an image file (JPEG, JPG, PNG) of the invoice.
+3. Click "Tell me about the invoice" button to generate and display responses.
 
-Enter a prompt describing the inquiry about the invoice.
-Upload Invoice Image:
+## Features
+1. Utilizes Google GenerativeAI Gem API for content generation.
+2. Supports multiple image formats for invoice uploads.
+3. Provides responses based on user prompts and uploaded invoice images.
 
-Choose an image file (JPEG, JPG, PNG) of the invoice.
-Click "Tell me about the invoice" button to generate and display responses.
-
-Features
-Utilizes Google GenerativeAI Gem API for content generation.
-Supports multiple image formats for invoice uploads.
-Provides responses based on user prompts and uploaded invoice images.
-Note
+## Note
 Ensure proper configuration of environment variables and API key for seamless functionality.
 
 
